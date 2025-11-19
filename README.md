@@ -1,13 +1,13 @@
 # AndroidDeviceRestrictionManager
 A Device Owner–based Android application designed to secure, control, and restrict system settings on enterprise or dedicated-use devices. This app helps prevent users from accessing or modifying critical settings like Airplane Mode, WiFi configuration, Bluetooth options, and more. It is useful for POS terminals, kiosk devices, work devices, and any environment where full device control is required.
 
-📌 Purpose of This App
+#📌 Purpose of This App
 
 Modern Android devices allow users to toggle important system settings freely. In business environments, this can cause issues such as network disconnections, device misuse, or accidental shutdown of essential features.
 
 This app solves that problem by using Device Owner permissions to enforce system restrictions and maintain a fully controlled environment.
 
-✨ Key Features
+#✨ Key Features
 1. Disable Airplane Mode Functionality
 
 Prevents the user from turning ON or OFF airplane mode.
@@ -57,7 +57,7 @@ Disable factory reset
 This app runs as a Device Owner, which gives it the highest level of control on Android devices.
 With Device Policy APIs, the app enforces restrictions and secures device configurations so that users cannot modify critical settings.
 
-🎯 Use Cases
+#🎯 Use Cases
 
 Payment terminals (POS / PED devices)
 
@@ -71,7 +71,7 @@ Enterprise work devices
 
 Tablets used for single-purpose applications
 
-📄 Disclaimer
+#📄 Disclaimer
 
 This application is intended only for enterprise use or controlled environments.
 It should not be installed on personal devices, as Device Owner mode will restrict system-level settings.
